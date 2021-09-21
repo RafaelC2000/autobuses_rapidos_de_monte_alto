@@ -1,0 +1,86 @@
+
+.menu{
+    display: none;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    padding: 10px 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+}
+
+.containt_index h1{
+    width: 80%;
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.we_are{
+    width: 50%;
+    min-width: 360px;
+    display: block;
+}
+
+.containt_wa{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.bus_card img{
+    max-width: 320px;
+    min-height: 230px;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+}
+
+.gallery .bus_card{
+    width: 360px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_img{
+    width: 60%;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: transform 0.3s 0.2s;
+}
+
+.close{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 40px;
+    cursor: pointer;
+}
+
+.footer_contact{
+    width: 360px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+footer ul{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,109 @@
+header{
+    position: fixed;
+}
+nav{
+    width: 100%;
+    display: block;
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    transform: translate(1000%);
+    box-shadow: 0px 300px 200px 200px #ba181bc9;
+}
+.menu_on{
+    transform: translate(0%);
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+nav ul li{
+    list-style: none;
+    background-color: #E5383B;
+}
+nav ul li a{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding: 15px 20px 15px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-bottom: 1px solid #BA181B;
+}
+
+.menu img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.containt_index h1{
+    width: 90%;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.we_are{
+    width: 50%;
+    min-width: 320px;
+    display: block;
+}
+.containt_wa{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.bus_card img{
+    max-width: 300px;
+    min-height: 230px;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+}
+
+.gallery .bus_card{
+    width: 320px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_img{
+    width: 80%;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: transform 0.3s 0.2s;
+}
+
+.close{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    width: 40px;
+    cursor: pointer;
+}
+
+.footer_contact{
+    width: 320px;
+    height: 60px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+footer ul{
+    width: 300px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
