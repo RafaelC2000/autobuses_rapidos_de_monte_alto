@@ -7,11 +7,12 @@ nav{
     position: fixed;
     top: 70px;
     left: 0px;
-    transform: translate(1000%);
+    transform: translateY(-1000%);
+    transition:  ease-in-out 100ms;
     box-shadow: 0px 300px 200px 200px #ba181bc9;
 }
 .menu_on{
-    transform: translate(0%);
+    transform: translateY(0%);
 }
 nav ul{
     display: flex;
@@ -31,6 +32,10 @@ nav ul li a{
     font-weight: bold;
     color: white;
     border-bottom: 1px solid #BA181B;
+}
+
+h2{
+    margin-top: 80px;
 }
 
 .menu img{
@@ -59,7 +64,7 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 .bus_card img{
     max-width: 300px;
