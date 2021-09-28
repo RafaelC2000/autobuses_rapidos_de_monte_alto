@@ -7,6 +7,17 @@
 :root{
     scroll-behavior: smooth;
     color: #161A1D;
+    --main-red: #BA181B;
+    --week-red: #E5383B;
+    --weak-black: #161A1D;
+    --light-gray: #D3D3D3;
+
+    --main-black: #0B090A;
+    --strong-red: #660708;
+    --second-red: #A4161A;
+    --second-gray: #B1A7A6;
+    --second-white: #F5F3F4;
+    --main-white: #FFFFFF;
 }
 
 body{
@@ -122,6 +133,54 @@ h3{
     transform: scale(1);
 }
 
+.accordion_item{
+    width: 90%;
+    max-width: 1200px;
+    min-width: 320px;
+    background-color: var(--week-red);
+    margin: 0 auto 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 6px var(--strong-red);
+}
+.accordian-link{
+    width: 100%;
+    font-weight:400;
+    text-decoration: none;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.accordian-link ion-icon{
+    color: white;
+    padding: 5px;
+}
+.remove-outline{
+    display: none;
+}
+.answer{
+    display: none;
+    width: 100%;
+    background-color: var(--second-red);
+    box-shadow: inset 5px 0px var(--strong-red);
+}
+.answer p{
+    padding: 10px;
+    font-weight: 300;
+    color: white;
+    cursor: pointer;
+}
+.a_before{
+    display: block;
+}
+.i_show{
+    display: block;
+}
+.i_remove{
+    display: none;
+}
 footer{
     width: 100%;
     min-height: 200px;

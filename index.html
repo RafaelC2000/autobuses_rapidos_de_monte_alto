@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 801px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>     
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <header  id="index">
         <div class="logo">
-            <img src="./img/logo.jpg" alt="logo_autobuses_rapidos">
+            <img src="./img/logo2.png" alt="logo_autobuses_rapidos">
         </div>
         <nav id="nav">
             <ul>
@@ -124,9 +126,31 @@
         <img src="./img/auto_344313.jpg" alt="imagen_seleccionada" class="add_img">
     </div>
     <section id="qf">
-        <h2>
-            Preguntas Frecuentes
-        </h2>
+        <div class="container_qf">
+            <h2>
+                Preguntas Frecuentes
+            </h2>
+            <div class="accordion">
+                <div class="accordion_item" id="q1">
+                    <div class="accordian-link">¿Cual es el horario de operación de nuestros elementos de transporte?
+                        <ion-icon name="add-outline" class="add-outline ia1"></ion-icon>
+                        <ion-icon name="remove-outline" class="remove-outline ir1"></ion-icon>
+                    </div>
+                    <div class="answer a1">             
+                        <p>El horario establecido de operación es desde las 4:00 am que es la hora a la que salen nuestras primeras hordas de camiones de las distintas plazas que manejamos, hasta las 10:30 que salen los ultimos camiones.</p>
+                    </div>
+                </div>
+                <div class="accordion_item" id="q2">
+                    <div class="accordian-link">¿Cuanto es el pasaje minimo?
+                    <ion-icon name="add-outline" class="add-outline ia2"></ion-icon>
+                        <ion-icon name="remove-outline" class="remove-outline ir2"></ion-icon>
+                    </div>
+                    <div class="answer a2">             
+                        <p>El pasaje minimo establecido por el nose que de gobierno para los que tenemos camiones es de $12.00 mx y de ahi en adelante por cada kilometro el aumento es de $0.80mx.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <section id="contact">
         <h2>
@@ -160,5 +184,6 @@
     </footer>
     <script src="./js/menu.js"></script>
     <script src="./js/lightbox.js"></script>
+    <script src="./js/qf.js"></script>
 </body>
 </html>
